@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.form-section{
+    margin: 2rem ;
+    background-color: #e67e22;
+    border-radius: 11px;
+}
+
+.form-box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.form-text{
+    padding:4rem 8rem;
+    /* padding-bottom: 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.form-text-heading{
+    font-size: 3rem;
+    /* color: #45260a; */
+    color: #222;
+}
+
+.form-text-para{
+    font-size: 2rem;
+    /* color: #45260a; */
+    text-align: justify;
+}
+
+.form-fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+}
+
+.form label{
+    font-size: 2rem;
+}
+
+.form input{
+    border-style: none;
+    border-radius: 9px;
+    padding: 1rem;
+}
+
+.form input::placeholder{
+    color: #222;
+    font-size: 1.5rem;
+}
+
+.form select{
+    padding: 1rem;
+    border-style: none;
+    border-radius: 9px;
+}
+
+.form-list-options{
+    color: #222;
+    font-size: 1.5rem;
+}   
+
+.form-section *:focus{
+    outline: none;
+}
+
+.form-button,
+.form-button:link,
+.form-button:visited{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 11px;
+    border-style: none;
+    background-color: #45260a;
+    color: #fdf2e9;
+    font-weight: 600;
+    cursor: pointer ;
+    transition: all .3s;
+}
+
+.form-button:hover{
+    background-color: #fff;
+    color: #555;
+}
+
+.form-button{
+    transform: translateY(25%);
+}
+
+.form-image{
+    background-image: url(../img/eating.jpg);
+    border-bottom-right-radius: 11px;
+    border-top-right-radius: 11px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}

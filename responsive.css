@@ -1,0 +1,52 @@
+/* ******************* */
+/* width 1344px for small laptops */
+/* ******************* */
+
+@media (max-width: 84em) {
+  .hero {
+    /* padding: 0 4rem; */
+    max-width: 120rem;
+  }
+  .hero-head {
+    font-size: 3rem;
+  }
+}
+
+/* ******************* */
+/* width 1250px */
+/* ******************* */
+
+@media (max-width: 78em) {
+  html {
+    font-size: 56.52%;
+  }
+
+  .hero-head {
+    font-size: 2.6rem;
+  }
+
+  .testimonial-and-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .testimonial-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* ******************* */
+/* width 950px */
+/* ******************* */
+@media (max-width: 59.3em) {
+  html {
+    font-size: 50%;
+  }
+  .feature {
+    font-size: 1rem;
+  }
+  .featured-logo {
+    height: 3.4rem;
+  }
+}
